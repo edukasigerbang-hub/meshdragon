@@ -1,10 +1,10 @@
 import { unstable_setRequestLocale } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 
 export default async function Features({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   unstable_setRequestLocale(locale);
-  const t = useTranslations('Features');
+  const t = await getTranslations({ locale, namespace: 'Features' });
 
   const features = [
     {

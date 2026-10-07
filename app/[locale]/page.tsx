@@ -1,12 +1,12 @@
 import { unstable_setRequestLocale } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import HeroSection from '../components/HeroSection';
 import ModelViewer from '../components/ModelViewer';
 
 export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   unstable_setRequestLocale(locale);
-  const t = useTranslations('Index');
+  const t = await getTranslations({ locale, namespace: 'Index' });
 
   return (
     <main className="min-h-screen overflow-x-hidden bg-[#000308] pt-24 md:pt-20">

@@ -25,12 +25,10 @@ export default async function LocaleLayout({
   unstable_setRequestLocale(locale)
 
   return (
-    <html lang={locale}>
-      <body className={inter.className} suppressHydrationWarning>
-        <NextIntlClientProvider messages={messages} locale={locale}>
-          <ClientLayout>{children}</ClientLayout>
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider messages={messages} locale={locale}>
+      <div lang={locale} className={inter.className} suppressHydrationWarning>
+        <ClientLayout>{children}</ClientLayout>
+      </div>
+    </NextIntlClientProvider>
   )
 }
