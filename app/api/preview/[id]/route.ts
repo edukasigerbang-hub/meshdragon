@@ -5,9 +5,10 @@ const generatedScenes = new Map<string, string>();
 
 export async function GET(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
-  const html = generatedScenes.get(params.id);
+  const { id } = await params;
+  const html = generatedScenes.get(id);
   
   if (!html) {
     return NextResponse.json({ error: 'Preview not found' }, { status: 404 });
@@ -18,15 +19,16 @@ export async function GET(
 
 export async function POST(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params;
   const { html } = await request.json();
   
   if (!html) {
     return NextResponse.json({ error: 'HTML content is required' }, { status: 400 });
   }
 
-  generatedScenes.set(params.id, html);
+  generatedScenes.set(id, html);
   
   return NextResponse.json({ success: true });
 } 

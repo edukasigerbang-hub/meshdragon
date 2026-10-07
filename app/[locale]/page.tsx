@@ -1,20 +1,12 @@
 import { unstable_setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
-import dynamic from 'next/dynamic';
 import HeroSection from '../components/HeroSection';
+import ModelViewer from '../components/ModelViewer';
 
-export default function Home({ params: { locale } }: { params: { locale: string } }) {
+export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   unstable_setRequestLocale(locale);
   const t = useTranslations('Index');
-
-  const ModelViewer = dynamic(() => import('../components/ModelViewer'), {
-    ssr: false,
-    loading: () => (
-      <div className="w-full h-full min-h-[400px] flex items-center justify-center bg-black/50">
-        <div className="text-white">Loading 3D Model...</div>
-      </div>
-    )
-  });
 
   return (
     <main className="min-h-screen overflow-x-hidden bg-[#000308] pt-24 md:pt-20">
