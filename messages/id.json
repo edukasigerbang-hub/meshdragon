@@ -1,0 +1,217 @@
+{
+    "Metadata": {
+        "title": "MeshDragon - Platform Web3D Terkini",
+        "description": "Buat, edit, dan bagikan visualisasi 3D yang memukau dengan MeshDragon. Platform modern untuk kreator digital masa kini."
+    },
+    "Editor": {
+        "title": "Editor 3D",
+        "backToHome": "Kembali ke Beranda",
+        "tools": {
+            "translate": "Pindahkan",
+            "rotate": "Putar",
+            "scale": "Skala"
+        },
+        "assets": {
+            "title": "Asset",
+            "upload": "Upload Model",
+            "uploading": "Mengupload...",
+            "noModels": "Belum ada model yang diupload"
+        }
+    },
+    "About": {
+        "vision": {
+            "title": "Visi Kami",
+            "description": "Kami membangun masa depan kreasi konten 3D, membuat alat profesional dapat diakses oleh semua orang.",
+            "values": {
+                "innovation": {
+                    "title": "Inovasi",
+                    "description": "Mendorong batas kemungkinan dalam pembuatan 3D berbasis web"
+                },
+                "accessibility": {
+                    "title": "Aksesibilitas",
+                    "description": "Menyediakan alat 3D profesional untuk kreator di semua tingkatan"
+                },
+                "community": {
+                    "title": "Komunitas",
+                    "description": "Membangun ekosistem kreator dan pengembang yang dinamis"
+                }
+            }
+        },
+        "team": {
+            "title": "Tim Kami",
+            "description": "Sekelompok kreator dan inovator yang berdedikasi untuk merevolusi pembuatan konten 3D",
+            "members": {
+                "founder": {
+                    "name": "Mang Ugeng",
+                    "role": "Pendiri & CEO",
+                    "bio": "Pengembang software berpengalaman dengan passion di bidang 3D dan teknologi web modern. Memiliki visi untuk membuat teknologi 3D lebih mudah diakses oleh semua orang.",
+                    "expertise": [
+                        "Web Development",
+                        "3D Graphics",
+                        "Business Strategy"
+                    ]
+                },
+                "tech": {
+                    "name": "Demi Dasmana",
+                    "role": "Kepala Teknologi",
+                    "bio": "Ahli di bidang WebGL dan grafis 3D dengan pengalaman lebih dari 8 tahun dalam pengembangan aplikasi web performant.",
+                    "expertise": [
+                        "WebGL",
+                        "Three.js",
+                        "Performance Optimization"
+                    ]
+                },
+                "operations": {
+                    "name": "Farhan Amirul Fikri",
+                    "role": "Kepala Operasional Studio",
+                    "bio": "Manajer operasional studio berpengalaman dengan keahlian dalam manajemen proyek dan strategi konten. Berdedikasi untuk mengoptimalkan alur kerja dan menghasilkan kualitas terbaik.",
+                    "expertise": [
+                        "Operasional Studio",
+                        "Manajemen Proyek",
+                        "Strategi Konten"
+                    ]
+                },
+                "design": {
+                    "name": "Rakeu Muladi",
+                    "role": "Kepala Desain",
+                    "bio": "Desainer UI/UX dengan fokus pada pengalaman pengguna yang intuitif dan estetika modern. Spesialis dalam desain antarmuka 3D.",
+                    "expertise": [
+                        "UI/UX Design",
+                        "3D Interface",
+                        "Motion Design"
+                    ]
+                }
+            }
+        },
+        "contact": {
+            "title": "Hubungi Kami",
+            "description": "Punya pertanyaan atau ingin tahu lebih banyak? Kami senang mendengar dari Anda.",
+            "button": "Hubungi Kami"
+        }
+    },
+    "Index": {
+        "developmentBanner": "Website ini sedang dalam tahap pengembangan. Beberapa fitur mungkin belum berfungsi dengan baik.",
+        "loading": "Memuat Model 3D...",
+        "subtitle": "Platform Web3D Terkini",
+        "title": "Jelajahi Dunia Digital",
+        "titleHighlight": "Tanpa Batas",
+        "description": "Hadirkan ide-ide kreatif Anda dalam bentuk visualisasi 3D yang memukau. Platform modern untuk kreator digital masa kini.",
+        "learnMore": "Pelajari Lebih Lanjut",
+        "features": {
+            "title": "Fitur Unggulan",
+            "subtitle": "Semua Yang Anda Butuhkan",
+            "description": "Platform lengkap dengan berbagai fitur canggih untuk membuat, mengedit, dan membagikan konten 3D Anda",
+            "realtime": {
+                "title": "Pengeditan 3D Real-time",
+                "description": "Edit dan preview model 3D secara langsung di browser tanpa perlu software tambahan"
+            },
+            "performance": {
+                "title": "Performa Optimal",
+                "description": "Dioptimalkan untuk kinerja maksimal di semua perangkat dengan teknologi WebGL terkini"
+            },
+            "collaboration": {
+                "title": "Kolaborasi Tim",
+                "description": "Bekerja bersama tim Anda dalam waktu nyata dengan fitur kolaborasi yang powerful"
+            }
+        },
+        "cta": {
+            "title": "Siap Untuk Memulai?",
+            "description": "Bergabunglah dengan ribuan kreator digital yang telah menggunakan platform kami",
+            "button": "Mulai Gratis"
+        }
+    },
+    "Features": {
+        "hero": {
+            "title": "Fitur Unggulan untuk Kreasi 3D",
+            "description": "Temukan semua alat dan fitur yang menjadikan MeshDragon platform sempurna untuk proyek kreatif 3D Anda"
+        },
+        "features": {
+            "modeling": {
+                "title": "Pemodelan 3D Canggih",
+                "description": "Buat dan edit model 3D kompleks langsung di browser Anda",
+                "points": {
+                    "1": "Pemodelan real-time dengan umpan balik instan",
+                    "2": "Dukungan berbagai format file",
+                    "3": "Alat optimasi mesh canggih"
+                }
+            },
+            "collaboration": {
+                "title": "Kolaborasi Tim",
+                "description": "Bekerja bersama dengan lancar bersama anggota tim Anda",
+                "points": {
+                    "1": "Pengeditan kolaboratif real-time",
+                    "2": "Kontrol versi dan riwayat",
+                    "3": "Izin dan peran tim"
+                }
+            },
+            "performance": {
+                "title": "Performa Optimal",
+                "description": "Rasakan performa yang lancar di semua perangkat",
+                "points": {
+                    "1": "Rendering berbasis WebGL",
+                    "2": "Generasi LOD otomatis",
+                    "3": "Dukungan loading progresif"
+                }
+            },
+            "export": {
+                "title": "Opsi Ekspor Fleksibel",
+                "description": "Ekspor karya Anda dalam berbagai format dan kualitas",
+                "points": {
+                    "1": "Dukungan multi format",
+                    "2": "Pengaturan ekspor kustom",
+                    "3": "Kemampuan ekspor massal"
+                }
+            },
+            "security": {
+                "title": "Keamanan Enterprise",
+                "description": "Jaga keamanan properti intelektual Anda",
+                "points": {
+                    "1": "Enkripsi end-to-end",
+                    "2": "Manajemen kontrol akses",
+                    "3": "Audit keamanan rutin"
+                }
+            },
+            "support": {
+                "title": "Dukungan 24/7",
+                "description": "Dapatkan bantuan kapan pun Anda butuhkan",
+                "points": {
+                    "1": "Dukungan live chat",
+                    "2": "Dokumentasi lengkap",
+                    "3": "Video tutorial dan panduan"
+                }
+            }
+        },
+        "cta": {
+            "title": "Siap Mengubah Alur Kerja 3D Anda?",
+            "description": "Bergabunglah dengan ribuan kreator yang telah merevolusi proses kreasi 3D mereka",
+            "button": "Mulai Gratis"
+        }
+    },
+    "Navigation": {
+        "language": "Pilih Bahasa",
+        "english": "Bahasa Inggris",
+        "indonesian": "Bahasa Indonesia",
+        "features": "Fitur",
+        "about": "Tentang"
+    },
+    "Model": {
+        "by": "Model oleh"
+    },
+    "NotFound": {
+        "title": "404 - Halaman Tidak Ditemukan",
+        "description": "Halaman yang Anda cari tidak ada atau telah dipindahkan.",
+        "button": "Kembali ke Beranda"
+    },
+    "Layout": {
+        "developmentBanner": "Website ini sedang dalam tahap pengembangan. Beberapa fitur mungkin belum berfungsi dengan baik."
+    },
+    "Footer": {
+        "copyright": "© 2024 MeshDragon. Hak cipta dilindungi.",
+        "links": {
+            "privacy": "Kebijakan Privasi",
+            "terms": "Ketentuan Layanan",
+            "contact": "Kontak"
+        },
+        "rights": "Hak Cipta © 2024 MeshDragon. Seluruh hak dilindungi."
+    }
+}
